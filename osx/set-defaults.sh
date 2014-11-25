@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -v
 
 # ~/.osx — http://mths.be/osx
 
