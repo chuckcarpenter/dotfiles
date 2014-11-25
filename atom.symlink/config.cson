@@ -1,7 +1,8 @@
 'editor':
   'showIndentGuide': true
   'fontFamily': 'Menlo'
-  'fontSize': 15
+  'fontSize': 17
+  'tabLength': 4
   'invisibles': {}
 'core':
   'ignoredNames': [
@@ -11,10 +12,11 @@
     'repositories'
     'tmp'
     'vendor'
+    '.DS_Store'
   ]
   'themes': [
-    'unity-ui'
-    'glacier-syntax'
+    'atom-dark-ui'
+    'dracula-theme'
   ]
   'hideGitIgnoredFiles': true
   'disabledPackages': [
@@ -32,3 +34,7 @@
   'showOnStartup': false
 'release-notes':
   'viewedVersion': '0.89.0'
+'tree-view':
+  'showOnRightSide': true
+'atom-lint':
+  'showViolationMetadata': false
