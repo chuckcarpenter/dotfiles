@@ -1,8 +1,10 @@
 'editor':
+  'fontSize': 18
   'showIndentGuide': true
-  'fontFamily': 'Menlo'
-  'fontSize': 17
+  'preferredLineLength': 120
   'tabLength': 4
+  'softWrapAtPreferredLineLength': true
+  'useShadowDOM': true
   'invisibles': {}
 'core':
   'ignoredNames': [
@@ -15,8 +17,8 @@
     '.DS_Store'
   ]
   'themes': [
-    'atom-dark-ui'
-    'dracula-theme'
+    "seti-ui"
+    "monokai"
   ]
   'hideGitIgnoredFiles': true
   'disabledPackages': [
@@ -33,8 +35,9 @@
 'welcome':
   'showOnStartup': false
 'release-notes':
-  'viewedVersion': '0.89.0'
+  'viewedVersion': '0.95.0'
 'tree-view':
   'showOnRightSide': true
 'atom-lint':
   'showViolationMetadata': false
+  'watchConfig': false
