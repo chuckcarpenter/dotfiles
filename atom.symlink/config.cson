@@ -1,43 +1,48 @@
-'editor':
-  'fontSize': 18
-  'showIndentGuide': true
-  'preferredLineLength': 120
-  'tabLength': 4
-  'softWrapAtPreferredLineLength': true
-  'useShadowDOM': true
-  'invisibles': {}
-'core':
-  'ignoredNames': [
-    '.bundle'
-    '.git'
-    'log'
-    'repositories'
-    'tmp'
-    'vendor'
-    '.DS_Store'
-  ]
-  'themes': [
-    "seti-ui"
-    "monokai"
-  ]
-  'hideGitIgnoredFiles': true
-  'disabledPackages': [
-    'background-tips'
-    'exception-reporting'
-    'metrics'
-  ]
-'spell-check':
-  'grammars': [
-    'text.plain'
-    'source.gfm'
-    'text.git-commit'
-  ]
-'welcome':
-  'showOnStartup': false
-'release-notes':
-  'viewedVersion': '0.95.0'
-'tree-view':
-  'showOnRightSide': true
-'atom-lint':
-  'showViolationMetadata': false
-  'watchConfig': false
+"*":
+  editor:
+    fontSize: 18
+    showIndentGuide: true
+    preferredLineLength: 120
+    tabLength: 4
+    softWrapAtPreferredLineLength: true
+    useShadowDOM: true
+    invisibles: {}
+  core:
+    ignoredNames: [
+      ".bundle"
+      ".git"
+      "log"
+      "repositories"
+      "tmp"
+      "vendor"
+      ".DS_Store"
+    ]
+    themes: [
+      "seti-ui"
+      "seti-monokai"
+    ]
+    hideGitIgnoredFiles: true
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
+    ]
+  welcome:
+    showOnStartup: false
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "tree-view":
+    showOnRightSide: true
+  "atom-lint":
+    showViolationMetadata: false
+    watchConfig: false
+  react:
+    jsxTagStartPattern: "(?x)((^|=|return)\\s*<([^!/?](?!.+?(</.+?>))))"
+    jsxComplexAttributePattern: "(?x)\\{ [^}\"']* $|\\( [^)\"']* $"
+    decreaseIndentForNextLinePattern: "(?x) />\\s*(,|;)?\\s*$ | ^\\s*\\S+.*</[-_\\.A-Za-z0-9]+>$"

@@ -9,9 +9,12 @@ export CLICOLOR=true
 
 # User configuration
 export PATH=/usr/local/bin:$PATH
-export PATH=/Users/ccarpent/sshuttle/:$PATH
-source /usr/local/bin/virtualenvwrapper.sh
-export PATH="/usr/local/opt/ruby/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python:/usr/local/sbin:/usr/X11/bin:/usr/local/bin:/sbin:/usr/sbin:/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+
+# Add Homebrew path
+export PATH="/usr/local/sbin:$PATH"
+# export PATH=/Users/ccarpent/sshuttle/:$PATH
+# source /usr/local/bin/virtualenvwrapper.sh
+# export PATH="/usr/local/opt/ruby/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python:/usr/local/sbin:/usr/X11/bin:/usr/local/bin:/sbin:/usr/sbin:/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 
 fpath=($ZSH/functions $fpath)

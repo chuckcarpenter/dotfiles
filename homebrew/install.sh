@@ -1,4 +1,4 @@
-#!/bin/sh -v
+  #!/bin/sh -v
 #
 # Homebrew
 #
@@ -34,11 +34,12 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
 # Install Brew bundler
-brew tap homebrew/boneyard
+# brew tap homebrew/boneyard
+brew tap Homebrew/brewdler
 
 # Install everything else
 # Needs to have Brewfile in root dir
-brew bundle
+brew brewdle
 
 # Remove outdated versions from the cellar
 brew cleanup
