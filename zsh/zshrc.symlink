@@ -68,3 +68,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export NVM_DIR="/Users/ccarpent/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Node path
+export NODE_PATH=/usr/local/lib/node_modules
+
+export PATH=/usr/local/share/npm/bin:$PATH

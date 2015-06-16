@@ -33,6 +33,7 @@ cask 'opera'
 cask 'rescuetime'
 cask 'sauce'
 cask 'spotify'
+cask 'tunnelbear'
 cask 'virtualbox'
 
 

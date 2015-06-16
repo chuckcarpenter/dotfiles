@@ -9,6 +9,11 @@
     invisibles: {}
     showInvisibles: true
   core:
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
+    ]
+    hideGitIgnoredFiles: false
     ignoredNames: [
       ".bundle"
       ".git"
@@ -17,16 +22,6 @@
       "tmp"
       "vendor"
       ".DS_Store"
-    ]
-    themes: [
-      "seti-ui"
-      "seti-monokai"
-    ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
     ]
   "spell-check":
     grammars: [
@@ -40,7 +35,11 @@
     viewedVersion: "0.95.0"
   "tree-view":
     showOnRightSide: true
+    hideVcsIgnoredFiles: true
   "atom-lint":
     showViolationMetadata: false
     watchConfig: false
   react: {}
+  "exception-reporting":
+    userId: "af2e131e-9b16-acb6-24de-bae8c9d4e483"
+  emmet: {}
