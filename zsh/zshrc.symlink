@@ -70,6 +70,12 @@ export NVM_DIR="/Users/ccarpent/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Node path
-export NODE_PATH=/usr/local/lib/node_modules
+#export NODE_PATH=/usr/local/lib/node_modules
+export NODE_PATH=$NODE_PATH:/Users/ccarpent/.nvm/versions/node/v0.12.0/lib/node_modules
 
 export PATH=/usr/local/share/npm/bin:$PATH
+
+# Py VirtualEnv and Wrapper paths
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Projects
+source /usr/local/bin/virtualenvwrapper.sh

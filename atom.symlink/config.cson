@@ -1,6 +1,6 @@
 "*":
   editor:
-    fontSize: 18
+    fontSize: 19
     showIndentGuide: true
     preferredLineLength: 120
     tabLength: 4
@@ -23,6 +23,9 @@
       "vendor"
       ".DS_Store"
     ]
+    disabledPackages: [
+      "jslint"
+    ]
   "spell-check":
     grammars: [
       "text.plain"
@@ -35,7 +38,7 @@
     viewedVersion: "0.95.0"
   "tree-view":
     showOnRightSide: true
-    hideVcsIgnoredFiles: true
+    sortFoldersBeforeFiles: false
   "atom-lint":
     showViolationMetadata: false
     watchConfig: false
@@ -43,3 +46,11 @@
   "exception-reporting":
     userId: "af2e131e-9b16-acb6-24de-bae8c9d4e483"
   emmet: {}
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/Users/ccarpent/.nvm/versions/node/v0.12.0"
+    useGlobalEslint: true
+  "atom-pair":
+    hipchat_room_name: "Cosmos"
+    hipchat_token: "248ef037a9194e1623e740e809e5db"
+  "linter-scss-lint": {}
