@@ -1,17 +1,16 @@
 "*":
-  editor:
-    fontSize: 19
-    showIndentGuide: true
-    preferredLineLength: 120
-    tabLength: 4
-    softWrapAtPreferredLineLength: true
-    useShadowDOM: true
-    invisibles: {}
-    showInvisibles: true
+  "atom-lint":
+    showViolationMetadata: false
+    watchConfig: false
+  "atom-pair":
+    hipchat_room_name: "Cosmos"
+    hipchat_token: "248ef037a9194e1623e740e809e5db"
   core:
-    themes: [
-      "seti-ui"
-      "one-dark-syntax"
+    disabledPackages: [
+      "jslint"
+      "webbox-color"
+      "jsformat"
+      "esformatter"
     ]
     hideGitIgnoredFiles: false
     ignoredNames: [
@@ -23,34 +22,43 @@
       "vendor"
       ".DS_Store"
     ]
-    disabledPackages: [
-      "jslint"
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
     ]
+  editor:
+    fontSize: 19
+    invisibles: {}
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    useShadowDOM: true
+  emmet: {}
+  "exception-reporting":
+    userId: "af2e131e-9b16-acb6-24de-bae8c9d4e483"
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/Users/ccarpent/.nvm/versions/node/v4.2.1"
+    useGlobalEslint: true
+  "linter-scss-lint":
+    executablePath: "/usr/local/var/rbenv/shims/scss-lint"
+  react: {}
+  "release-notes":
+    viewedVersion: "0.95.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
-  welcome:
-    showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.95.0"
   "tree-view":
+    hideVcsIgnoredFiles: true
     showOnRightSide: true
     sortFoldersBeforeFiles: false
-  "atom-lint":
-    showViolationMetadata: false
-    watchConfig: false
-  react: {}
-  "exception-reporting":
-    userId: "af2e131e-9b16-acb6-24de-bae8c9d4e483"
-  emmet: {}
-  "linter-eslint":
-    disableWhenNoEslintrcFileInPath: true
-    globalNodePath: "/Users/ccarpent/.nvm/versions/node/v0.12.0"
-    useGlobalEslint: true
-  "atom-pair":
-    hipchat_room_name: "Cosmos"
-    hipchat_token: "248ef037a9194e1623e740e809e5db"
-  "linter-scss-lint": {}
+  welcome:
+    showOnStartup: false
+".ini.source":
+  editor:
+    preferredLineLength: 120
