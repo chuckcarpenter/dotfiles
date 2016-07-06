@@ -63,19 +63,19 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
 
-export RBENV_ROOT=/usr/local/var/rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#export RBENV_ROOT=/usr/local/var/rbenv
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export NVM_DIR="/Users/ccarpent/.nvm"
+export NVM_DIR=$(brew --prefix nvm)/nvm.sh
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Node path
-#export NODE_PATH=/usr/local/lib/node_modules
-export NODE_PATH=$NODE_PATH:/Users/ccarpent/.nvm/versions/node/v0.12.0/lib/node_modules
+export NODE_PATH=/usr/local/lib/node_modules
+#export NODE_PATH=$NODE_PATH:/Users/chuckcarpenter/.nvm/versions/node/v5.5.0/lib/node_modules
 
 export PATH=/usr/local/share/npm/bin:$PATH
 
 # Py VirtualEnv and Wrapper paths
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Projects
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=$HOME/.virtualenvs
+#export PROJECT_HOME=$HOME/Projects
+#source /usr/local/bin/virtualenvwrapper.sh

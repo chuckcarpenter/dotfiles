@@ -32,7 +32,7 @@
   whitespace = red reverse
 
 [core]
-	excludesfile = /Users/ccarpent/.gitignore_global
+	excludesfile = /Users/chuckcarpenter/.gitignore_global
 
 [alias]
 	st = status
@@ -42,7 +42,7 @@
     df = diff
     po = push origin
     pom = push origin master
-    pud = pull origin develop
+    pum = pull origin develop
     pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
     hash = rev-parse HEAD
     delete-merged-branches = "!f() { git checkout --quiet master && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
@@ -62,3 +62,7 @@
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
+[credential]
+	helper = osxkeychain
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/

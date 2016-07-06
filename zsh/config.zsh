@@ -14,7 +14,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 # export PATH=/Users/ccarpent/sshuttle/:$PATH
 # source /usr/local/bin/virtualenvwrapper.sh
-# export PATH="/usr/local/opt/ruby/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python:/usr/local/sbin:/usr/X11/bin:/usr/local/bin:/sbin:/usr/sbin:/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/opt/ruby/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python:/usr/local/sbin:/usr/X11/bin:/usr/local/bin:/sbin:/usr/sbin:/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 
 fpath=($ZSH/functions $fpath)
@@ -56,3 +56,8 @@ bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(git rvm pip osx npm heroku gem brew terminalapp nvm docker)

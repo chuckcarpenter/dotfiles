@@ -46,13 +46,13 @@ brew 'coreutils'
 # Install some other useful utilities like `sponge`
 brew 'moreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
-install findutils
+#install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
 brew 'gnu-sed', args: ['with-default-names']
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-install bash
-install bash-completion
+#install bash
+#install bash-completion
 
 # Install wget with IRI support
 brew 'wget', args: ['with-iri']
@@ -95,6 +95,7 @@ brew 'readline'
 brew 'rename'
 brew 'texi2html'
 brew 'tree'
+brew 'watchman'
 brew 'webp'
 brew 'x264'
 brew 'xvid'

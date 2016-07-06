@@ -10,9 +10,9 @@ alias please=sudo
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 
 # handy things
-alias bunyip='node ~/code/bunyip/cli.js'
-alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
-alias vlc="osascript ~/code/VLCControl/VLCControl.scpt"
+alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
+alias spotify='osascript ~/code/SpotifyControl/SpotifyControl.scpt'
+alias vlc='osascript ~/code/VLCControl/VLCControl.scpt'
 
 # GIT STUFF
 
@@ -39,10 +39,6 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
-
-# Shortcuts
-alias g="git"
-alias v="vim"
 
 # Shortcuts
 alias g="git"

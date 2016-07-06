@@ -1,4 +1,6 @@
 "*":
+  "atom-beautify":
+    analytics: false
   "atom-lint":
     showViolationMetadata: false
     watchConfig: false
@@ -6,12 +8,15 @@
     hipchat_room_name: "Cosmos"
     hipchat_token: "248ef037a9194e1623e740e809e5db"
   core:
+    audioBeep: false
     disabledPackages: [
       "jslint"
       "webbox-color"
       "jsformat"
       "esformatter"
+      "linter-sass-lint"
     ]
+    excludeVcsIgnoredPaths: false
     hideGitIgnoredFiles: false
     ignoredNames: [
       ".bundle"
@@ -27,7 +32,6 @@
       "one-dark-syntax"
     ]
   editor:
-    fontSize: 19
     invisibles: {}
     preferredLineLength: 120
     showIndentGuide: true
@@ -35,13 +39,13 @@
     softWrapAtPreferredLineLength: true
     tabLength: 4
     useShadowDOM: true
+  "ember-cli-helper": {}
   emmet: {}
   "exception-reporting":
     userId: "af2e131e-9b16-acb6-24de-bae8c9d4e483"
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
-    globalNodePath: "/Users/ccarpent/.nvm/versions/node/v4.2.1"
-    useGlobalEslint: true
+    globalNodePath: "/usr/local"
   "linter-scss-lint":
     executablePath: "/usr/local/var/rbenv/shims/scss-lint"
   react: {}
@@ -54,7 +58,6 @@
       "text.git-commit"
     ]
   "tree-view":
-    hideVcsIgnoredFiles: true
     showOnRightSide: true
     sortFoldersBeforeFiles: false
   welcome:
