@@ -27,6 +27,7 @@
       "vendor"
       ".DS_Store"
     ]
+    telemetryConsent: "no"
     themes: [
       "seti-ui"
       "one-dark-syntax"

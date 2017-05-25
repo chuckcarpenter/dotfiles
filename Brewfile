@@ -2,8 +2,6 @@ tap 'caskroom/cask'
 tap 'homebrew/brewdler'
 tap 'homebrew/dupes'
 
-brew 'brew-cask'
-
 # cask 'onepassword'
 # cask 'android-studio'
 cask 'acorn'

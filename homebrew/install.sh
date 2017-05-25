@@ -35,11 +35,11 @@ brew install homebrew/dupes/grep
 
 # Install Brew bundler
 # brew tap homebrew/boneyard
-brew tap Homebrew/brewdler
+brew tap Homebrew/bundle
 
 # Install everything else
 # Needs to have Brewfile in root dir
-brew brewdle
+brew bundle
 
 # Remove outdated versions from the cellar
 brew cleanup
